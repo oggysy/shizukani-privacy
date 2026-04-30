@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー / Privacy Policy — しずかに！</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-base: #FFF8EE;
+  --bg-card: #FFFFFF;
+  --bg-deep: #EFE0C4;
+  --bg-soft: #F5EBD7;
+  --border-soft: #EADBC2;
+  --border-strong: #D8C5A6;
+  --accent-primary: #D88A4A;
+  --accent-primary-soft: #F0B97A;
+  --accent-danger: #E07856;
+  --accent-info: #7BA7C4;
+  --text-primary: #3D2C1E;
+  --text-secondary: #7A6650;
+  --text-tertiary: #A8967D;
+  --text-on-accent: #FFFFFF;
+  --shadow-warm: rgba(61, 44, 30, 0.13);
+  --radius-lg: 28px;
+  --radius-md: 20px;
+  --radius-sm: 12px;
+  --radius-pill: 999px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --font-display: 'Nunito', 'Zen Maru Gothic', -apple-system, sans-serif;
+  --font-body: 'Inter', 'Zen Maru Gothic', -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-header {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md) var(--space-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.brand-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-on-accent);
+  font-size: 16px;
+  box-shadow: 0 2px 6px var(--shadow-warm);
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--text-primary);
+  letter-spacing: -0.2px;
+}
+
+.lang-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-pill);
+}
+
+.lang-tabs a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 800;
+  font-family: var(--font-display);
+  color: var(--text-secondary);
+  border-bottom: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.lang-tabs a:hover {
+  background: var(--bg-soft);
+  color: var(--text-primary);
+}
+
+.card {
+  max-width: 720px;
+  margin: 0 auto var(--space-xl);
+  padding: var(--space-xl);
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 28px var(--shadow-warm);
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 34px;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-sm);
+  line-height: 1.2;
+}
+
+.updated {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin: 0 0 var(--space-xl);
+  font-weight: 500;
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--bg-soft);
+  border-radius: var(--radius-pill);
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--accent-primary);
+  margin: var(--space-xl) 0 var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 2px solid var(--border-soft);
+  letter-spacing: -0.2px;
+}
+
+h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 17px;
+  color: var(--text-primary);
+  margin: var(--space-lg) 0 var(--space-sm);
+}
+
+p {
+  margin: 0 0 var(--space-md);
+  color: var(--text-secondary);
+}
+
+ul {
+  margin: 0 0 var(--space-md);
+  padding-left: var(--space-lg);
+  color: var(--text-secondary);
+}
+
+li {
+  margin-bottom: var(--space-xs);
+}
+
+li::marker {
+  color: var(--accent-primary-soft);
+}
+
+strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-primary-soft);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+a:hover {
+  color: var(--accent-danger);
+  border-bottom-color: var(--accent-danger);
+}
+
+.divider {
+  height: 1px;
+  background: var(--border-soft);
+  margin: var(--space-xl) calc(-1 * var(--space-xl));
+  border: 0;
+}
+
+.lang-section {
+  scroll-margin-top: 20px;
+}
+
+.footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 var(--space-md) var(--space-xl);
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.footer a {
+  color: var(--text-tertiary);
+  border-bottom: none;
+}
+
+.footer a:hover {
+  color: var(--text-secondary);
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-lg) var(--space-md) var(--space-md);
+  }
+  .card {
+    margin: 0 var(--space-sm) var(--space-lg);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+  }
+  h1 { font-size: 26px; }
+  h2 { font-size: 19px; }
+  h3 { font-size: 16px; }
+  .divider { margin: var(--space-xl) calc(-1 * var(--space-lg)); }
+}
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">🌙</div>
+    <div class="brand-name">しずかに！</div>
+  </div>
+  <nav class="lang-tabs" aria-label="言語切り替え">
+    <a href="#ja">日本語</a>
+    <a href="#en">English</a>
+  </nav>
+</header>
+
+<main class="card">
+
+<section id="ja" class="lang-section">
+  <h1>プライバシーポリシー</h1>
+  <p class="updated">最終更新日: 2026-05-01</p>
+
+  <p>「しずかに！」（以下「本サービス」といいます）は、ユーザーのプライバシーを最大限尊重します。本ポリシーは、本サービスにおける情報の取り扱いについて説明するものです。</p>
+
+  <h2>1. 取得する情報</h2>
+  <p>本サービスは、ユーザーから個人を特定できる情報（氏名、メールアドレス、電話番号、住所など）を取得しません。</p>
+
+  <h3>マイクの利用について</h3>
+  <p>本サービスは、ゲームプレイ中にデバイスのマイクから周囲の音圧（音の大きさ）を計測するためにマイクへのアクセス権限を要求します。マイクから取得した音声データは:</p>
+  <ul>
+    <li><strong>音圧の計測のみ</strong>に使用されます</li>
+    <li><strong>録音・保存・外部送信は一切行いません</strong></li>
+    <li>アプリのプロセス内でのみ処理され、計測後ただちに破棄されます</li>
+  </ul>
+
+  <h3>端末内に保存する情報</h3>
+  <p>本サービスは、効果音および振動の ON/OFF 設定をデバイス内（UserDefaults）に保存します。これらの設定は端末外部に送信されません。</p>
+
+  <h2>2. 第三者サービス</h2>
+  <p>本サービスは広告表示のために以下の第三者サービスを利用します。</p>
+
+  <h3>Google AdMob</h3>
+  <p>本サービスでは Google LLC が提供する Google AdMob を利用して広告を表示します。AdMob は広告配信のために、デバイス識別子（IDFA を含む場合があります）、広告操作情報、その他 Google が定める情報を取得することがあります。</p>
+  <p>詳細は以下の Google のプライバシーに関するポリシーをご確認ください:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシー ポリシー</a></li>
+    <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google 広告に関するポリシー</a></li>
+  </ul>
+
+  <h3>App Tracking Transparency (ATT)</h3>
+  <p>本サービスでは iOS の App Tracking Transparency フレームワークに準拠し、初回起動時にトラッキングの許可を求めるダイアログを表示します。許可しない場合でも本サービスのすべての機能をご利用いただけますが、表示される広告がパーソナライズされない可能性があります。</p>
+
+  <h3>SKAdNetwork</h3>
+  <p>本サービスは Apple の SKAdNetwork に対応しており、広告効果の計測のために利用されます。SKAdNetwork は個人を特定しない形で広告効果を計測する仕組みです。</p>
+
+  <h2>3. 子どものプライバシー</h2>
+  <p>本サービスは特に 13 歳未満の子どもを対象としていません。13 歳未満の方が本サービスを利用される場合は、保護者の方の監督のもとでご利用ください。</p>
+
+  <h2>4. ポリシーの変更</h2>
+  <p>本ポリシーは予告なく変更されることがあります。重要な変更がある場合は、本ページにて告知します。</p>
+
+  <h2>5. お問い合わせ</h2>
+  <p>本ポリシーに関するご質問は、以下までご連絡ください:</p>
+  <ul>
+    <li>メール: <a href="mailto:gohobipon.app@gmail.com">gohobipon.app@gmail.com</a></li>
+  </ul>
+</section>
+
+<hr class="divider">
+
+<section id="en" class="lang-section">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last Updated: 2026-05-01</p>
+
+  <p>"しずかに！" (Shizukani, the "Service") respects user privacy. This Privacy Policy explains how the Service handles information.</p>
+
+  <h2>1. Information We Collect</h2>
+  <p>The Service does not collect any personally identifiable information (such as name, email address, phone number, or address) from its users.</p>
+
+  <h3>Microphone Usage</h3>
+  <p>The Service requests access to your device's microphone in order to measure ambient sound levels during gameplay. Audio data captured from the microphone is:</p>
+  <ul>
+    <li><strong>Used solely for measuring sound levels</strong></li>
+    <li><strong>Never recorded, stored, or transmitted externally</strong></li>
+    <li>Processed only within the application's process and discarded immediately after measurement</li>
+  </ul>
+
+  <h3>On-Device Storage</h3>
+  <p>The Service stores your sound effect and vibration ON/OFF preferences in the device's UserDefaults. These settings are not transmitted outside your device.</p>
+
+  <h2>2. Third-Party Services</h2>
+  <p>The Service uses the following third-party services to display advertisements.</p>
+
+  <h3>Google AdMob</h3>
+  <p>The Service displays ads through Google AdMob, provided by Google LLC. AdMob may collect device identifiers (which may include the IDFA), ad interaction information, and other information defined by Google for the purpose of ad delivery.</p>
+  <p>For details, please refer to the following Google policies:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+    <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Policies</a></li>
+  </ul>
+
+  <h3>App Tracking Transparency (ATT)</h3>
+  <p>The Service complies with iOS's App Tracking Transparency framework and displays a tracking authorization prompt upon first launch. You may use all features regardless of your choice; however, ads may be less personalized if you decline.</p>
+
+  <h3>SKAdNetwork</h3>
+  <p>The Service supports Apple's SKAdNetwork, which is used to measure ad effectiveness. SKAdNetwork is a privacy-preserving framework that measures ad attribution without identifying individual users.</p>
+
+  <h2>3. Children's Privacy</h2>
+  <p>The Service is not specifically directed at children under the age of 13. If a child under 13 uses the Service, they should do so under the supervision of a parent or guardian.</p>
+
+  <h2>4. Changes to This Policy</h2>
+  <p>This Policy may be changed without prior notice. Significant changes will be announced on this page.</p>
+
+  <h2>5. Contact</h2>
+  <p>For questions regarding this Policy, please contact:</p>
+  <ul>
+    <li>Email: <a href="mailto:gohobipon.app@gmail.com">gohobipon.app@gmail.com</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p><a href="https://github.com/oggysy/shizukani-privacy" target="_blank" rel="noopener">View source on GitHub</a></p>
+</footer>
+
+</body>
+</html>
